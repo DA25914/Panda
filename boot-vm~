@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "booting ..."
+.././qemu-system-i386 -hda wheezy_panda2.qcow2 -m 5000 -net nic -net user -monitor stdio
+

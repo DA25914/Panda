@@ -1,0 +1,2 @@
+#!/bin/bash
+.././qemu-system-i386 -m 3500 -replay ./Recordings/overflow_0 -panda asidstory -os linux-32-lava32

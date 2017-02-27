@@ -1,0 +1,4 @@
+#!/bin/bash
+.././qemu-system-i386 -m 3500 -replay ./Recordings/gitPull \
+	-panda syscalls2:profile=linux_x86 \
+	-os linux-32-lava32
