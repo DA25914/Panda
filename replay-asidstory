@@ -1,2 +1,0 @@
-#!/bin/bash
-.././qemu-system-i386 -m 3500 -replay ./Recordings/overflow_0 -panda osi -panda osi_linux:kconf_file=kernelinfo.conf,kconf_group=my_kernel_info -os linux-32-lava32  -panda osi_test

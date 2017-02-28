@@ -297,7 +297,7 @@ Syscall: 3078342001 924184576 192
 Syscall: 3078342001 924184576 192
 Syscall: 3078341419 924184576 6
 ./Recordings/gitPull-rr-nondet.log:   455574782 instrs total.
-gitPull:     4614315 (  1.01%) instrs.    0.82 sec.  0.19 GB ram.
+gitPull:     4614315 (  1.01%) instrs.    0.85 sec.  0.20 GB ram.
 Syscall: 3078042300 925659136 197
 Syscall: 3078042993 925659136 192
 Syscall: 3078043122 925659136 125
@@ -599,7 +599,7 @@ Syscall: 3077694489 924184576 5
 Syscall: 3077694489 924184576 197
 Syscall: 3077694489 924184576 192
 Syscall: 3077694489 924184576 6
-gitPull:     9140961 (  2.01%) instrs.    1.10 sec.  0.20 GB ram.
+gitPull:     9140961 (  2.01%) instrs.    1.14 sec.  0.21 GB ram.
 Syscall: 3077694489 924184576 183
 Syscall: 3077694489 924184576 195
 Syscall: 3077694489 924184576 195
@@ -892,7 +892,7 @@ Syscall: 3077858329 924184576 5
 Syscall: 3077858329 924184576 197
 Syscall: 3077858329 924184576 192
 Syscall: 3077858329 924184576 3
-gitPull:    13673790 (  3.00%) instrs.    1.34 sec.  0.21 GB ram.
+gitPull:    13673790 (  3.00%) instrs.    1.39 sec.  0.21 GB ram.
 Syscall: 3077858329 924184576 3
 Syscall: 3077858329 924184576 6
 Syscall: 3077858329 924184576 91
@@ -1248,7 +1248,7 @@ Syscall: 3078374425 925138944 120
 Syscall: 3078374425 925138944 6
 Syscall: 3078374425 925138944 3
 Syscall: 3078046251 924930048 45
-gitPull:    18307630 (  4.02%) instrs.    1.72 sec.  0.21 GB ram.
+gitPull:    18307630 (  4.02%) instrs.    1.75 sec.  0.21 GB ram.
 Syscall: 3078050863 924930048 33
 Syscall: 3078051185 924930048 192
 Syscall: 3078050863 924930048 33
@@ -1631,7 +1631,7 @@ Syscall: 3078022169 924930048 197
 Syscall: 3078022169 924930048 192
 Syscall: 3078022169 924930048 6
 Syscall: 3078022169 924930048 183
-gitPull:    22793970 (  5.00%) instrs.    1.99 sec.  0.21 GB ram.
+gitPull:    22793970 (  5.00%) instrs.    2.04 sec.  0.22 GB ram.
 Syscall: 3078022169 924930048 195
 Syscall: 3078022169 924930048 195
 Syscall: 3078022169 924930048 33
@@ -2069,7 +2069,7 @@ Syscall: 3078419481 924930048 6
 Syscall: 3078419481 924930048 5
 Syscall: 3078419481 924930048 33
 Syscall: 3078419481 924930048 33
-gitPull:    27473083 (  6.03%) instrs.    2.24 sec.  0.21 GB ram.
+gitPull:    27473083 (  6.03%) instrs.    2.29 sec.  0.22 GB ram.
 Syscall: 3078419481 924930048 33
 Syscall: 3078419481 924930048 5
 Syscall: 3078419481 924930048 6
@@ -2316,7 +2316,7 @@ Syscall: 3078469106 925659136 125
 Syscall: 3078469106 925659136 125
 Syscall: 3078469106 925659136 125
 Syscall: 3078469039 925659136 91
-gitPull:    31936548 (  7.01%) instrs.    2.41 sec.  0.22 GB ram.
+gitPull:    31936548 (  7.01%) instrs.    2.46 sec.  0.22 GB ram.
 Syscall: 3078419481 924930048 41
 Syscall: 3078419481 924930048 221
 Syscall: 3078419481 924930048 197
@@ -2331,7 +2331,7 @@ Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
-gitPull:    36482125 (  8.01%) instrs.    2.54 sec.  0.22 GB ram.
+gitPull:    36482125 (  8.01%) instrs.    2.59 sec.  0.22 GB ram.
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3078468338 925659136 5
@@ -2388,107 +2388,107 @@ Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
-gitPull:    41351671 (  9.08%) instrs.    2.76 sec.  0.22 GB ram.
-gitPull:    46080265 ( 10.11%) instrs.    2.86 sec.  0.22 GB ram.
-gitPull:    50409744 ( 11.07%) instrs.    2.96 sec.  0.22 GB ram.
-gitPull:    55248224 ( 12.13%) instrs.    3.06 sec.  0.22 GB ram.
-gitPull:    59456362 ( 13.05%) instrs.    3.16 sec.  0.22 GB ram.
-gitPull:    64367536 ( 14.13%) instrs.    3.26 sec.  0.22 GB ram.
-gitPull:    68586709 ( 15.05%) instrs.    3.35 sec.  0.22 GB ram.
-gitPull:    73421343 ( 16.12%) instrs.    3.46 sec.  0.22 GB ram.
-gitPull:    77736724 ( 17.06%) instrs.    3.55 sec.  0.22 GB ram.
-gitPull:    82228153 ( 18.05%) instrs.    3.65 sec.  0.22 GB ram.
-gitPull:    86603526 ( 19.01%) instrs.    3.74 sec.  0.22 GB ram.
-gitPull:    91542270 ( 20.09%) instrs.    3.85 sec.  0.22 GB ram.
-gitPull:    95880860 ( 21.05%) instrs.    3.95 sec.  0.22 GB ram.
-gitPull:   100787970 ( 22.12%) instrs.    4.06 sec.  0.22 GB ram.
-gitPull:   105001357 ( 23.05%) instrs.    4.14 sec.  0.22 GB ram.
-gitPull:   109541616 ( 24.04%) instrs.    4.24 sec.  0.22 GB ram.
-gitPull:   113897046 ( 25.00%) instrs.    4.34 sec.  0.22 GB ram.
-gitPull:   118557203 ( 26.02%) instrs.    4.43 sec.  0.22 GB ram.
-gitPull:   123645082 ( 27.14%) instrs.    4.53 sec.  0.22 GB ram.
-gitPull:   128067728 ( 28.11%) instrs.    4.62 sec.  0.22 GB ram.
-gitPull:   132614149 ( 29.11%) instrs.    4.71 sec.  0.22 GB ram.
-gitPull:   137147263 ( 30.10%) instrs.    4.80 sec.  0.22 GB ram.
-gitPull:   141670453 ( 31.10%) instrs.    4.88 sec.  0.22 GB ram.
-gitPull:   146190188 ( 32.09%) instrs.    4.97 sec.  0.22 GB ram.
-gitPull:   150629805 ( 33.06%) instrs.    5.06 sec.  0.22 GB ram.
-gitPull:   155241624 ( 34.08%) instrs.    5.15 sec.  0.22 GB ram.
-gitPull:   159771333 ( 35.07%) instrs.    5.24 sec.  0.22 GB ram.
-gitPull:   164733871 ( 36.16%) instrs.    5.34 sec.  0.22 GB ram.
-gitPull:   168950939 ( 37.09%) instrs.    5.42 sec.  0.22 GB ram.
-gitPull:   173321797 ( 38.04%) instrs.    5.52 sec.  0.22 GB ram.
-gitPull:   177683089 ( 39.00%) instrs.    5.60 sec.  0.22 GB ram.
-gitPull:   182652665 ( 40.09%) instrs.    5.70 sec.  0.22 GB ram.
-gitPull:   187027904 ( 41.05%) instrs.    5.79 sec.  0.22 GB ram.
-gitPull:   191374084 ( 42.01%) instrs.    5.88 sec.  0.22 GB ram.
-gitPull:   196437213 ( 43.12%) instrs.    5.98 sec.  0.22 GB ram.
-gitPull:   200785439 ( 44.07%) instrs.    6.07 sec.  0.22 GB ram.
-gitPull:   205133061 ( 45.03%) instrs.    6.15 sec.  0.22 GB ram.
-gitPull:   209664439 ( 46.02%) instrs.    6.24 sec.  0.22 GB ram.
-gitPull:   214173136 ( 47.01%) instrs.    6.33 sec.  0.22 GB ram.
-gitPull:   219183710 ( 48.11%) instrs.    6.43 sec.  0.22 GB ram.
-gitPull:   223463381 ( 49.05%) instrs.    6.52 sec.  0.22 GB ram.
-gitPull:   227829180 ( 50.01%) instrs.    6.61 sec.  0.22 GB ram.
-gitPull:   232786384 ( 51.10%) instrs.    6.71 sec.  0.22 GB ram.
-gitPull:   237114211 ( 52.05%) instrs.    6.80 sec.  0.22 GB ram.
-gitPull:   242139594 ( 53.15%) instrs.    6.90 sec.  0.22 GB ram.
-gitPull:   246489563 ( 54.11%) instrs.    6.99 sec.  0.22 GB ram.
-gitPull:   250827974 ( 55.06%) instrs.    7.07 sec.  0.22 GB ram.
-gitPull:   255138274 ( 56.00%) instrs.    7.16 sec.  0.22 GB ram.
-gitPull:   260071361 ( 57.09%) instrs.    7.26 sec.  0.22 GB ram.
-gitPull:   264307293 ( 58.02%) instrs.    7.35 sec.  0.22 GB ram.
-gitPull:   269143142 ( 59.08%) instrs.    7.45 sec.  0.22 GB ram.
-gitPull:   273351639 ( 60.00%) instrs.    7.54 sec.  0.22 GB ram.
-gitPull:   278156638 ( 61.06%) instrs.    7.64 sec.  0.22 GB ram.
-gitPull:   283130362 ( 62.15%) instrs.    7.74 sec.  0.22 GB ram.
-gitPull:   287453501 ( 63.10%) instrs.    7.83 sec.  0.22 GB ram.
-gitPull:   291651517 ( 64.02%) instrs.    7.91 sec.  0.22 GB ram.
-gitPull:   296624208 ( 65.11%) instrs.    8.02 sec.  0.22 GB ram.
-gitPull:   300898627 ( 66.05%) instrs.    8.10 sec.  0.22 GB ram.
-gitPull:   305772578 ( 67.12%) instrs.    8.20 sec.  0.22 GB ram.
-gitPull:   309791825 ( 68.00%) instrs.    8.28 sec.  0.22 GB ram.
-gitPull:   314520835 ( 69.04%) instrs.    8.38 sec.  0.22 GB ram.
-gitPull:   319132499 ( 70.05%) instrs.    8.47 sec.  0.22 GB ram.
-gitPull:   323682307 ( 71.05%) instrs.    8.56 sec.  0.22 GB ram.
-gitPull:   328664993 ( 72.14%) instrs.    8.66 sec.  0.22 GB ram.
+gitPull:    41351671 (  9.08%) instrs.    2.81 sec.  0.22 GB ram.
+gitPull:    46080265 ( 10.11%) instrs.    2.92 sec.  0.22 GB ram.
+gitPull:    50409744 ( 11.07%) instrs.    3.01 sec.  0.22 GB ram.
+gitPull:    55248224 ( 12.13%) instrs.    3.12 sec.  0.22 GB ram.
+gitPull:    59456362 ( 13.05%) instrs.    3.21 sec.  0.22 GB ram.
+gitPull:    64367536 ( 14.13%) instrs.    3.32 sec.  0.22 GB ram.
+gitPull:    68586709 ( 15.05%) instrs.    3.42 sec.  0.22 GB ram.
+gitPull:    73421343 ( 16.12%) instrs.    3.53 sec.  0.22 GB ram.
+gitPull:    77736724 ( 17.06%) instrs.    3.62 sec.  0.22 GB ram.
+gitPull:    82228153 ( 18.05%) instrs.    3.72 sec.  0.22 GB ram.
+gitPull:    86603526 ( 19.01%) instrs.    3.82 sec.  0.22 GB ram.
+gitPull:    91542270 ( 20.09%) instrs.    3.93 sec.  0.22 GB ram.
+gitPull:    95880860 ( 21.05%) instrs.    4.03 sec.  0.22 GB ram.
+gitPull:   100787970 ( 22.12%) instrs.    4.14 sec.  0.22 GB ram.
+gitPull:   105001357 ( 23.05%) instrs.    4.23 sec.  0.22 GB ram.
+gitPull:   109541616 ( 24.04%) instrs.    4.33 sec.  0.22 GB ram.
+gitPull:   113897046 ( 25.00%) instrs.    4.43 sec.  0.22 GB ram.
+gitPull:   118557203 ( 26.02%) instrs.    4.52 sec.  0.22 GB ram.
+gitPull:   123645082 ( 27.14%) instrs.    4.63 sec.  0.22 GB ram.
+gitPull:   128067728 ( 28.11%) instrs.    4.72 sec.  0.22 GB ram.
+gitPull:   132614149 ( 29.11%) instrs.    4.82 sec.  0.22 GB ram.
+gitPull:   137147263 ( 30.10%) instrs.    4.91 sec.  0.22 GB ram.
+gitPull:   141670453 ( 31.10%) instrs.    5.00 sec.  0.22 GB ram.
+gitPull:   146190188 ( 32.09%) instrs.    5.10 sec.  0.22 GB ram.
+gitPull:   150629805 ( 33.06%) instrs.    5.18 sec.  0.22 GB ram.
+gitPull:   155241624 ( 34.08%) instrs.    5.28 sec.  0.22 GB ram.
+gitPull:   159771333 ( 35.07%) instrs.    5.36 sec.  0.22 GB ram.
+gitPull:   164733871 ( 36.16%) instrs.    5.46 sec.  0.22 GB ram.
+gitPull:   168950939 ( 37.09%) instrs.    5.56 sec.  0.22 GB ram.
+gitPull:   173321797 ( 38.04%) instrs.    5.64 sec.  0.22 GB ram.
+gitPull:   177683089 ( 39.00%) instrs.    5.74 sec.  0.22 GB ram.
+gitPull:   182652665 ( 40.09%) instrs.    5.84 sec.  0.22 GB ram.
+gitPull:   187027904 ( 41.05%) instrs.    5.93 sec.  0.22 GB ram.
+gitPull:   191374084 ( 42.01%) instrs.    6.02 sec.  0.22 GB ram.
+gitPull:   196437213 ( 43.12%) instrs.    6.12 sec.  0.22 GB ram.
+gitPull:   200785439 ( 44.07%) instrs.    6.21 sec.  0.22 GB ram.
+gitPull:   205133061 ( 45.03%) instrs.    6.30 sec.  0.22 GB ram.
+gitPull:   209664439 ( 46.02%) instrs.    6.40 sec.  0.22 GB ram.
+gitPull:   214173136 ( 47.01%) instrs.    6.49 sec.  0.22 GB ram.
+gitPull:   219183710 ( 48.11%) instrs.    6.60 sec.  0.22 GB ram.
+gitPull:   223463381 ( 49.05%) instrs.    6.68 sec.  0.22 GB ram.
+gitPull:   227829180 ( 50.01%) instrs.    6.77 sec.  0.22 GB ram.
+gitPull:   232786384 ( 51.10%) instrs.    6.88 sec.  0.22 GB ram.
+gitPull:   237114211 ( 52.05%) instrs.    6.97 sec.  0.22 GB ram.
+gitPull:   242139594 ( 53.15%) instrs.    7.07 sec.  0.22 GB ram.
+gitPull:   246489563 ( 54.11%) instrs.    7.16 sec.  0.22 GB ram.
+gitPull:   250827974 ( 55.06%) instrs.    7.25 sec.  0.22 GB ram.
+gitPull:   255138274 ( 56.00%) instrs.    7.34 sec.  0.22 GB ram.
+gitPull:   260071361 ( 57.09%) instrs.    7.44 sec.  0.22 GB ram.
+gitPull:   264307293 ( 58.02%) instrs.    7.54 sec.  0.22 GB ram.
+gitPull:   269143142 ( 59.08%) instrs.    7.63 sec.  0.22 GB ram.
+gitPull:   273351639 ( 60.00%) instrs.    7.72 sec.  0.22 GB ram.
+gitPull:   278156638 ( 61.06%) instrs.    7.82 sec.  0.22 GB ram.
+gitPull:   283130362 ( 62.15%) instrs.    7.92 sec.  0.22 GB ram.
+gitPull:   287453501 ( 63.10%) instrs.    8.01 sec.  0.22 GB ram.
+gitPull:   291651517 ( 64.02%) instrs.    8.10 sec.  0.22 GB ram.
+gitPull:   296624208 ( 65.11%) instrs.    8.20 sec.  0.22 GB ram.
+gitPull:   300898627 ( 66.05%) instrs.    8.29 sec.  0.22 GB ram.
+gitPull:   305772578 ( 67.12%) instrs.    8.39 sec.  0.22 GB ram.
+gitPull:   309791825 ( 68.00%) instrs.    8.47 sec.  0.22 GB ram.
+gitPull:   314520835 ( 69.04%) instrs.    8.57 sec.  0.22 GB ram.
+gitPull:   319132499 ( 70.05%) instrs.    8.66 sec.  0.22 GB ram.
+gitPull:   323682307 ( 71.05%) instrs.    8.76 sec.  0.22 GB ram.
+gitPull:   328664993 ( 72.14%) instrs.    8.86 sec.  0.22 GB ram.
 Syscall: 3075194383 925659136 265
-gitPull:   332580839 ( 73.00%) instrs.    8.75 sec.  0.22 GB ram.
-Syscall: 3075194383 925659136 265
-Syscall: 3075194383 925659136 265
+gitPull:   332580839 ( 73.00%) instrs.    8.95 sec.  0.22 GB ram.
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
-gitPull:   337365811 ( 74.05%) instrs.    8.85 sec.  0.22 GB ram.
+Syscall: 3075194383 925659136 265
+Syscall: 3075194383 925659136 265
+gitPull:   337365811 ( 74.05%) instrs.    9.06 sec.  0.22 GB ram.
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
-gitPull:   342166783 ( 75.11%) instrs.    8.95 sec.  0.22 GB ram.
-gitPull:   346853987 ( 76.14%) instrs.    9.05 sec.  0.22 GB ram.
-gitPull:   351179858 ( 77.09%) instrs.    9.14 sec.  0.22 GB ram.
-gitPull:   355431895 ( 78.02%) instrs.    9.22 sec.  0.22 GB ram.
-gitPull:   360025399 ( 79.03%) instrs.    9.31 sec.  0.22 GB ram.
-gitPull:   364576891 ( 80.03%) instrs.    9.40 sec.  0.22 GB ram.
-gitPull:   369539161 ( 81.11%) instrs.    9.50 sec.  0.22 GB ram.
-gitPull:   373796842 ( 82.05%) instrs.    9.58 sec.  0.22 GB ram.
-gitPull:   378723006 ( 83.13%) instrs.    9.69 sec.  0.22 GB ram.
-gitPull:   382709265 ( 84.01%) instrs.    9.79 sec.  0.22 GB ram.
-gitPull:   387326312 ( 85.02%) instrs.    9.88 sec.  0.22 GB ram.
-gitPull:   392256384 ( 86.10%) instrs.    9.98 sec.  0.22 GB ram.
-gitPull:   396827394 ( 87.10%) instrs.   10.07 sec.  0.22 GB ram.
-gitPull:   401126029 ( 88.05%) instrs.   10.16 sec.  0.22 GB ram.
-gitPull:   405971052 ( 89.11%) instrs.   10.26 sec.  0.22 GB ram.
-gitPull:   410164181 ( 90.03%) instrs.   10.35 sec.  0.22 GB ram.
-gitPull:   414700153 ( 91.03%) instrs.   10.43 sec.  0.22 GB ram.
+gitPull:   342166783 ( 75.11%) instrs.    9.16 sec.  0.22 GB ram.
+gitPull:   346853987 ( 76.14%) instrs.    9.26 sec.  0.22 GB ram.
+gitPull:   351179858 ( 77.09%) instrs.    9.34 sec.  0.22 GB ram.
+gitPull:   355431895 ( 78.02%) instrs.    9.43 sec.  0.22 GB ram.
+gitPull:   360025399 ( 79.03%) instrs.    9.53 sec.  0.22 GB ram.
+gitPull:   364576891 ( 80.03%) instrs.    9.62 sec.  0.22 GB ram.
+gitPull:   369539161 ( 81.11%) instrs.    9.72 sec.  0.22 GB ram.
+gitPull:   373796842 ( 82.05%) instrs.    9.81 sec.  0.22 GB ram.
+gitPull:   378723006 ( 83.13%) instrs.    9.90 sec.  0.22 GB ram.
+gitPull:   382709265 ( 84.01%) instrs.   10.01 sec.  0.22 GB ram.
+gitPull:   387326312 ( 85.02%) instrs.   10.10 sec.  0.22 GB ram.
+gitPull:   392256384 ( 86.10%) instrs.   10.20 sec.  0.22 GB ram.
+gitPull:   396827394 ( 87.10%) instrs.   10.30 sec.  0.22 GB ram.
+gitPull:   401126029 ( 88.05%) instrs.   10.39 sec.  0.22 GB ram.
+gitPull:   405971052 ( 89.11%) instrs.   10.49 sec.  0.22 GB ram.
+gitPull:   410164181 ( 90.03%) instrs.   10.58 sec.  0.22 GB ram.
+gitPull:   414700153 ( 91.03%) instrs.   10.66 sec.  0.22 GB ram.
 Syscall: 3078489113 888659968 13
 Syscall: 3078489113 888659968 195
 Syscall: 3078489113 888659968 197
 Syscall: 3078489113 888659968 195
 Syscall: 3078489113 888659968 142
-gitPull:   419648813 ( 92.11%) instrs.   10.53 sec.  0.22 GB ram.
-gitPull:   423931778 ( 93.05%) instrs.   10.60 sec.  0.22 GB ram.
+gitPull:   419648813 ( 92.11%) instrs.   10.76 sec.  0.22 GB ram.
+gitPull:   423931778 ( 93.05%) instrs.   10.84 sec.  0.22 GB ram.
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
 Syscall: 3075194383 925659136 265
@@ -2588,7 +2588,7 @@ Syscall: 3077612913 926781440 192
 Syscall: 3077612331 926781440 6
 Syscall: 3077612913 926781440 192
 Syscall: 3077528765 926781440 243
-gitPull:   428280074 ( 94.01%) instrs.   10.76 sec.  0.22 GB ram.
+gitPull:   428280074 ( 94.01%) instrs.   10.99 sec.  0.22 GB ram.
 Syscall: 3077613042 926781440 125
 Syscall: 3077613042 926781440 125
 Syscall: 3077613042 926781440 125
@@ -3083,7 +3083,7 @@ Syscall: 3078419481 924930048 33
 Syscall: 3078419481 924930048 33
 Syscall: 3078419481 924930048 174
 Syscall: 3078419481 924930048 4
-gitPull:   432902202 ( 95.02%) instrs.   11.02 sec.  0.23 GB ram.
+gitPull:   432902202 ( 95.02%) instrs.   11.26 sec.  0.24 GB ram.
 Syscall: 3078419481 924930048 174
 Syscall: 3078419481 924930048 6
 Syscall: 3078419481 924930048 6
@@ -3102,8 +3102,8 @@ Syscall: 3077768217 925941760 175
 Syscall: 3077768217 925941760 175
 Syscall: 3077768217 925941760 3
 Syscall: 3077768217 925941760 142
-gitPull:   437364981 ( 96.00%) instrs.   11.12 sec.  0.23 GB ram.
-gitPull:   442087074 ( 97.04%) instrs.   11.19 sec.  0.23 GB ram.
+gitPull:   437364981 ( 96.00%) instrs.   11.36 sec.  0.24 GB ram.
+gitPull:   442087074 ( 97.04%) instrs.   11.44 sec.  0.24 GB ram.
 Syscall: 3077768217 925941760 175
 Syscall: 3077768217 925941760 175
 Syscall: 3077768217 925941760 3
@@ -3345,7 +3345,7 @@ Syscall: 3077719538 886534144 125
 Syscall: 3077719538 886534144 125
 Syscall: 3077719538 886534144 125
 Syscall: 3077719471 886534144 91
-gitPull:   446616717 ( 98.03%) instrs.   11.42 sec.  0.24 GB ram.
+gitPull:   446616717 ( 98.03%) instrs.   11.67 sec.  0.24 GB ram.
 Syscall: 3077624857 886534144 268
 Syscall: 3077624857 886534144 268
 Syscall: 3078296601 926801920 45
@@ -3743,7 +3743,7 @@ Syscall: 3078345753 886534144 6
 Syscall: 3078345753 886534144 220
 Syscall: 3078345753 886534144 6
 Syscall: 3078345753 886534144 5
-gitPull:   451184454 ( 99.04%) instrs.   11.65 sec.  0.25 GB ram.
+gitPull:   451184454 ( 99.04%) instrs.   11.91 sec.  0.25 GB ram.
 Syscall: 3078345753 886534144 220
 Syscall: 3078345753 886534144 220
 Syscall: 3078345753 886534144 6
