@@ -1,4 +1,4 @@
-Program Counter,Panda Current ASID,System Number,Syscall Reutrn Type,Syste Call Name
+Program Counter,Panda Current ASID,System Number,Syscall Return Type,System Call Name
 3078489113,888659968,13,long,sys_time(time_t __user *tloc);
 3078489113,888659968,195,long,"sys_stat64(const char __user *filename,struct stat64 __user *statbuf);"
 3078489113,888659968,197,long,"sys_fstat64(unsigned long fd, struct stat64 __user *statbuf);"
