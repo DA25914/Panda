@@ -1,0 +1,360 @@
+Program Counter,Panda Current ASID,Process Name,Syscall Return Type,System Call Name,System Call Number
+0xb779b419,34f7f000,init,13,long,sys_time(time_t __user *tloc);
+0xb779b424,34f7f000,init,1488321031,error,error
+0xb779b419,34f7f000,init,195,long,"sys_stat64(const char __user *filename,struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,197,long,"sys_fstat64(unsigned long fd, struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,195,long,"sys_stat64(const char __user *filename,struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb77c8419,3729e000,bash,4,long,"sys_write(unsigned int fd, const char __user *buf,size_t count);"
+0xb77c8424,3729e000,bash,1,long,sys_exit(int error_code);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,13,long,sys_time(time_t __user *tloc);
+0xb77c8424,3729e000,bash,1488321031,error,error
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,42,long,sys_pipe(int __user *fildes);
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,120,long,"sys_clone(unsigned long flags, void *child_stack, void *ptid, void *ctid, struct pt_regs *regs);"
+0xb77c8424,3729e000,bash,2463,error,error
+0xb77c8419,3729e000,bash,57,long,"sys_setpgid(pid_t pid, pid_t pgid);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,6,long,sys_close(unsigned int fd);
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,6,long,sys_close(unsigned int fd);
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,7,long,"sys_waitpid(pid_t pid, int __user *stat_addr, int options);"
+0xb777622b,34c3e000,overflow,45,long,sys_brk(unsigned long brk);
+0xb777622d,34c3e000,overflow,154345472,error,error
+0xb777742f,34c3e000,overflow,33,long,"sys_access(const char __user *filename, int mode);"
+0xb7777431,34c3e000,overflow,4294967294,error,error
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3077955584,error,error
+0xb777742f,34c3e000,overflow,33,long,"sys_access(const char __user *filename, int mode);"
+0xb7777431,34c3e000,overflow,4294967294,error,error
+0xb77772f2,34c3e000,overflow,5,long,"sys_open(const char __user *filename,int flags, int mode);"
+0xb77772f4,34c3e000,overflow,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb77772bc,34c3e000,overflow,197,long,"sys_fstat64(unsigned long fd, struct stat64 __user *statbuf);"
+0xb77772be,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3077935104,error,error
+0xb777732b,34c3e000,overflow,6,long,sys_close(unsigned int fd);
+0xb777732d,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb777742f,34c3e000,overflow,33,long,"sys_access(const char __user *filename, int mode);"
+0xb7777431,34c3e000,overflow,4294967294,error,error
+0xb77772f2,34c3e000,overflow,5,long,"sys_open(const char __user *filename,int flags, int mode);"
+0xb77772f4,34c3e000,overflow,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7777372,34c3e000,overflow,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7777374,34c3e000,overflow,512,error,error
+0xb77772bc,34c3e000,overflow,197,long,"sys_fstat64(unsigned long fd, struct stat64 __user *statbuf);"
+0xb77772be,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3076460544,error,error
+0xb77775f2,34c3e000,overflow,125,long,"sys_mprotect(unsigned long start, size_t len,unsigned long prot);"
+0xb77775f4,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3077910528,error,error
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3077922816,error,error
+0xb777732b,34c3e000,overflow,6,long,sys_close(unsigned int fd);
+0xb777732d,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb7777571,34c3e000,overflow,192,long,"sys_mmap_pgoff(unsigned long addr, unsigned long len,unsigned long prot, unsigned long flags,unsigned long fd, unsigned long pgoff);"
+0xb7777573,34c3e000,overflow,3076456448,error,error
+0xb7762cbd,34c3e000,overflow,243,int,set_thread_area(struct user_desc *u_info);
+0xb7762cbf,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb77775f2,34c3e000,overflow,125,long,"sys_mprotect(unsigned long start, size_t len,unsigned long prot);"
+0xb77775f4,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb77775f2,34c3e000,overflow,125,long,"sys_mprotect(unsigned long start, size_t len,unsigned long prot);"
+0xb77775f4,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb77775af,34c3e000,overflow,91,long,"sys_munmap(unsigned long addr, size_t len);"
+0xb77775b1,34c3e000,overflow,0,long,sys_restart_syscall(void);
+0xb7760419,34c3e000,overflow,252,long,sys_exit_group(int error_code);
+0xb77c8424,3729e000,bash,2463,error,error
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8419,3729e000,bash,7,long,"sys_waitpid(pid_t pid, int __user *stat_addr, int options);"
+0xb77c8424,3729e000,bash,4294967286,error,error
+0xb77c8406,3729e000,bash,119,int,sys_sigreturn(unsigned long __unused);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,13,long,sys_time(time_t __user *tloc);
+0xb77c8424,3729e000,bash,1488321031,error,error
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,54,long,"sys_ioctl(unsigned int fd, unsigned int cmd,unsigned long arg);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,174,long,"rt_sigaction(int sig, const struct sigaction __user * act, struct sigaction __user * oact,  size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,4,long,"sys_write(unsigned int fd, const char __user *buf,size_t count);"
+0xb77c8424,3729e000,bash,29,long,sys_pause(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb77c8424,3729e000,bash,0,long,sys_restart_syscall(void);
+0xb77c8419,3729e000,bash,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb76f6419,37239000,rpcbind,78,long,"sys_gettimeofday(struct timeval __user *tv,struct timezone __user *tz);"
+0xb76f6424,37239000,rpcbind,0,long,sys_restart_syscall(void);
+0xb76f6419,37239000,rpcbind,168,long,"sys_poll(struct pollfd __user *ufds, unsigned int nfds,long timeout);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb7712424,3713a000,acpid,1,long,sys_exit(int error_code);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,175,long,"sys_rt_sigprocmask(int how, sigset_t __user *set,sigset_t __user *oset, size_t sigsetsize);"
+0xb7712424,3713a000,acpid,0,long,sys_restart_syscall(void);
+0xb7712419,3713a000,acpid,3,long,"sys_read(unsigned int fd, char __user *buf, size_t count);"
+0xb7712424,3713a000,acpid,16,long,"sys_lchown16(const char __user *filename,old_uid_t user, old_gid_t group);"
+0xb7712419,3713a000,acpid,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,13,long,sys_time(time_t __user *tloc);
+0xb779b424,34f7f000,init,1488321036,error,error
+0xb779b419,34f7f000,init,195,long,"sys_stat64(const char __user *filename,struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,197,long,"sys_fstat64(unsigned long fd, struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,195,long,"sys_stat64(const char __user *filename,struct stat64 __user *statbuf);"
+0xb779b424,34f7f000,init,0,long,sys_restart_syscall(void);
+0xb779b419,34f7f000,init,142,long,"sys_select(int n, fd_set __user *inp, fd_set __user *outp,fd_set __user *exp, struct timeval __user *tvp);"

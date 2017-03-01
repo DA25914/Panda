@@ -1,0 +1,534 @@
+os_type=2 bits=32 os_details=[lava32]
+***IN DIFFERENCE ANALYZER!****
+panda_require: osi
+Looking for kconffile in /opt/panda/build/i386-softmmu/panda/plugins/osi_linux/kernelinfo.conf
+OSI grabbing Linux introspection backend.
+Linux OSI, using group lava32:32 from /opt/panda/build/i386-softmmu/panda/plugins/osi_linux/kernelinfo.conf.
+panda_require: osi_linux
+panda_require: osi_linux
+panda_load_plugin: /opt/panda/build/i386-softmmu/panda/plugins/panda_osi_linux.so already loaded
+panda_require: syscalls2
+syscalls2: using profile for linux x86 32-bit
+loading snapshot
+... done.
+opening nondet log for read :	Recordings/no_overflow_0-rr-nondet.log
+adding asid=0x34f7f000 to running procs.  cmd=[swapper/0]  task=0xc13e0fe0
+Recordings/no_overflow_0-rr-nondet.log:     2973582 instrs total.
+no_overflow_0:       33921 (  1.14%) instrs.    0.35 sec.  0.17 GB ram.
+no_overflow_0:       60671 (  2.04%) instrs.    0.37 sec.  0.17 GB ram.
+no_overflow_0:       89642 (  3.01%) instrs.    0.39 sec.  0.18 GB ram.
+no_overflow_0:      124728 (  4.19%) instrs.    0.41 sec.  0.18 GB ram.
+no_overflow_0:      150329 (  5.06%) instrs.    0.43 sec.  0.18 GB ram.
+no_overflow_0:      180846 (  6.08%) instrs.    0.44 sec.  0.18 GB ram.
+adding asid=0x3713a000 to running procs.  cmd=[swapper/0]  task=0xc13e0fe0
+no_overflow_0:      215392 (  7.24%) instrs.    0.46 sec.  0.18 GB ram.
+adding asid=0x3729e000 to running procs.  cmd=[kworker/0:0]  task=0xf4c2cca0
+no_overflow_0:      239922 (  8.07%) instrs.    0.48 sec.  0.18 GB ram.
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb77c8419 3729e000 bash 4 1
+Syscall: 0xb77c8424 3729e000 bash 1 0
+no_overflow_0:      274386 (  9.23%) instrs.    0.50 sec.  0.18 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:      298305 ( 10.03%) instrs.    0.52 sec.  0.18 GB ram.
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+no_overflow_0:      327797 ( 11.02%) instrs.    0.53 sec.  0.18 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 13 1
+Syscall: 0xb77c8424 3729e000 bash 1488322846 0
+no_overflow_0:      359813 ( 12.10%) instrs.    0.54 sec.  0.18 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 42 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 120 1
+no_overflow_0:      393240 ( 13.22%) instrs.    0.56 sec.  0.18 GB ram.
+no_overflow_0:      420507 ( 14.14%) instrs.    0.58 sec.  0.19 GB ram.
+no_overflow_0:      478334 ( 16.09%) instrs.    0.60 sec.  0.19 GB ram.
+no_overflow_0:      478334 ( 16.09%) instrs.    0.60 sec.  0.19 GB ram.
+no_overflow_0:      535750 ( 18.02%) instrs.    0.62 sec.  0.19 GB ram.
+no_overflow_0:      535750 ( 18.02%) instrs.    0.62 sec.  0.19 GB ram.
+Syscall: 0xb77c8424 3729e000 bash 2467 0
+adding asid=0x37021000 to running procs.  cmd=[bash]  task=0xf73316a0
+Syscall: 0xb77c8419 3729e000 bash 57 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:      589565 ( 19.83%) instrs.    0.66 sec.  0.19 GB ram.
+Syscall: 0xb77c8419 37021000 bash 175 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 57 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 175 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 54 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 175 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 6 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 3 1
+no_overflow_0:      622829 ( 20.95%) instrs.    0.69 sec.  0.19 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 6 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 6 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:      648329 ( 21.80%) instrs.    0.71 sec.  0.19 GB ram.
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 6 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+no_overflow_0:      669448 ( 22.51%) instrs.    0.73 sec.  0.19 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 7 1
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+Syscall: 0xb77c8419 37021000 bash 174 1
+Syscall: 0xb77c8424 37021000 bash 0 0
+no_overflow_0:      693118 ( 23.31%) instrs.    0.74 sec.  0.19 GB ram.
+Syscall: 0xb77c8419 37021000 bash 11 1
+no_overflow_0:      733284 ( 24.66%) instrs.    0.76 sec.  0.19 GB ram.
+no_overflow_0:      755855 ( 25.42%) instrs.    0.78 sec.  0.19 GB ram.
+no_overflow_0:      775203 ( 26.07%) instrs.    0.79 sec.  0.19 GB ram.
+no_overflow_0:      819927 ( 27.57%) instrs.    0.83 sec.  0.19 GB ram.
+adding asid=0x34ffc000 to running procs.  cmd=[bash]  task=0xf708cd80
+no_overflow_0:      936361 ( 31.49%) instrs.    0.87 sec.  0.20 GB ram.
+no_overflow_0:      936361 ( 31.49%) instrs.    0.87 sec.  0.20 GB ram.
+no_overflow_0:      936361 ( 31.49%) instrs.    0.87 sec.  0.20 GB ram.
+no_overflow_0:      970404 ( 32.63%) instrs.    0.88 sec.  0.20 GB ram.
+no_overflow_0:      970404 ( 32.63%) instrs.    0.88 sec.  0.20 GB ram.
+no_overflow_0:      992245 ( 33.37%) instrs.    0.90 sec.  0.20 GB ram.
+no_overflow_0:     1020599 ( 34.32%) instrs.    0.92 sec.  0.20 GB ram.
+no_overflow_0:     1064004 ( 35.78%) instrs.    0.93 sec.  0.20 GB ram.
+Syscall: 0xb770422b 34ffc000 no_overflow 45 1
+Syscall: 0xb770422d 34ffc000 no_overflow 154021888 0
+Syscall: 0xb770542f 34ffc000 no_overflow 33 1
+no_overflow_0:     1084699 ( 36.48%) instrs.    0.94 sec.  0.20 GB ram.
+Syscall: 0xb7705431 34ffc000 no_overflow 4294967294 0
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3077488640 0
+Syscall: 0xb770542f 34ffc000 no_overflow 33 1
+Syscall: 0xb7705431 34ffc000 no_overflow 4294967294 0
+no_overflow_0:     1102450 ( 37.07%) instrs.    0.95 sec.  0.20 GB ram.
+Syscall: 0xb77052f2 34ffc000 no_overflow 5 1
+Syscall: 0xb77052f4 34ffc000 no_overflow 3 0
+Syscall: 0xb77052bc 34ffc000 no_overflow 197 1
+Syscall: 0xb77052be 34ffc000 no_overflow 0 0
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3077468160 0
+Syscall: 0xb770532b 34ffc000 no_overflow 6 1
+Syscall: 0xb770532d 34ffc000 no_overflow 0 0
+Syscall: 0xb770542f 34ffc000 no_overflow 33 1
+Syscall: 0xb7705431 34ffc000 no_overflow 4294967294 0
+Syscall: 0xb77052f2 34ffc000 no_overflow 5 1
+Syscall: 0xb77052f4 34ffc000 no_overflow 3 0
+Syscall: 0xb7705372 34ffc000 no_overflow 3 1
+Syscall: 0xb7705374 34ffc000 no_overflow 512 0
+Syscall: 0xb77052bc 34ffc000 no_overflow 197 1
+Syscall: 0xb77052be 34ffc000 no_overflow 0 0
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3075993600 0
+Syscall: 0xb77055f2 34ffc000 no_overflow 125 1
+no_overflow_0:     1144030 ( 38.47%) instrs.    0.97 sec.  0.20 GB ram.
+Syscall: 0xb77055f4 34ffc000 no_overflow 0 0
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3077443584 0
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3077455872 0
+Syscall: 0xb770532b 34ffc000 no_overflow 6 1
+Syscall: 0xb770532d 34ffc000 no_overflow 0 0
+no_overflow_0:     1179211 ( 39.66%) instrs.    0.99 sec.  0.20 GB ram.
+Syscall: 0xb7705571 34ffc000 no_overflow 192 1
+Syscall: 0xb7705573 34ffc000 no_overflow 3075989504 0
+Syscall: 0xb76f0cbd 34ffc000 no_overflow 243 1
+Syscall: 0xb76f0cbf 34ffc000 no_overflow 0 0
+no_overflow_0:     1252037 ( 42.11%) instrs.    1.00 sec.  0.20 GB ram.
+no_overflow_0:     1252037 ( 42.11%) instrs.    1.00 sec.  0.20 GB ram.
+no_overflow_0:     1252037 ( 42.11%) instrs.    1.00 sec.  0.20 GB ram.
+Syscall: 0xb77055f2 34ffc000 no_overflow 125 1
+Syscall: 0xb77055f4 34ffc000 no_overflow 0 0
+Syscall: 0xb77055f2 34ffc000 no_overflow 125 1
+Syscall: 0xb77055f4 34ffc000 no_overflow 0 0
+Syscall: 0xb77055af 34ffc000 no_overflow 91 1
+Syscall: 0xb77055b1 34ffc000 no_overflow 0 0
+no_overflow_0:     1320977 ( 44.42%) instrs.    1.02 sec.  0.20 GB ram.
+no_overflow_0:     1320977 ( 44.42%) instrs.    1.02 sec.  0.20 GB ram.
+Syscall: 0xb76ee419 34ffc000 no_overflow 252 1
+no_overflow_0:     1360831 ( 45.76%) instrs.    1.04 sec.  0.20 GB ram.
+adding asid=0x1488000 to running procs.  cmd=[no_overflow]  task=0xf708cd80
+no_overflow_0:     1384343 ( 46.55%) instrs.    1.05 sec.  0.20 GB ram.
+Syscall: 0xb77c8424 3729e000 bash 2467 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:     1411415 ( 47.47%) instrs.    1.07 sec.  0.20 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8419 3729e000 bash 7 1
+Syscall: 0xb77c8424 3729e000 bash 4294967286 0
+Syscall: 0xb77c8406 3729e000 bash 119 1
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 13 1
+Syscall: 0xb77c8424 3729e000 bash 1488322846 0
+Syscall: 0xb77c8419 3729e000 bash 195 1
+Syscall: 0xb77c8424 3729e000 bash 4294967294 0
+Syscall: 0xb77c8419 3729e000 bash 13 1
+Syscall: 0xb77c8424 3729e000 bash 1488322846 0
+no_overflow_0:     1509535 ( 50.76%) instrs.    1.08 sec.  0.21 GB ram.
+no_overflow_0:     1509535 ( 50.76%) instrs.    1.08 sec.  0.21 GB ram.
+no_overflow_0:     1509535 ( 50.76%) instrs.    1.08 sec.  0.21 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:     1613616 ( 54.27%) instrs.    1.09 sec.  0.21 GB ram.
+no_overflow_0:     1613616 ( 54.27%) instrs.    1.09 sec.  0.21 GB ram.
+no_overflow_0:     1613616 ( 54.27%) instrs.    1.09 sec.  0.21 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 54 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 174 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+no_overflow_0:     1813336 ( 60.98%) instrs.    1.11 sec.  0.21 GB ram.
+no_overflow_0:     1813336 ( 60.98%) instrs.    1.11 sec.  0.21 GB ram.
+no_overflow_0:     1813336 ( 60.98%) instrs.    1.11 sec.  0.21 GB ram.
+Syscall: 0xb77c8419 3729e000 bash 4 1
+Syscall: 0xb77c8424 3729e000 bash 29 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 175 1
+Syscall: 0xb77c8424 3729e000 bash 0 0
+Syscall: 0xb77c8419 3729e000 bash 3 1
+no_overflow_0:     1833256 ( 61.65%) instrs.    1.12 sec.  0.21 GB ram.
+no_overflow_0:     1833256 ( 61.65%) instrs.    1.12 sec.  0.21 GB ram.
+no_overflow_0:     1849077 ( 62.18%) instrs.    1.13 sec.  0.21 GB ram.
+no_overflow_0:     1849077 ( 62.18%) instrs.    1.13 sec.  0.21 GB ram.
+no_overflow_0:     1856907 ( 62.45%) instrs.    1.13 sec.  0.21 GB ram.
+no_overflow_0:     1856907 ( 62.45%) instrs.    1.13 sec.  0.21 GB ram.
+no_overflow_0:     1874154 ( 63.03%) instrs.    1.14 sec.  0.21 GB ram.
+no_overflow_0:     1903163 ( 64.00%) instrs.    1.14 sec.  0.21 GB ram.
+no_overflow_0:     1933632 ( 65.03%) instrs.    1.15 sec.  0.21 GB ram.
+no_overflow_0:     1994304 ( 67.07%) instrs.    1.17 sec.  0.21 GB ram.
+no_overflow_0:     1994304 ( 67.07%) instrs.    1.17 sec.  0.21 GB ram.
+no_overflow_0:     2023459 ( 68.05%) instrs.    1.18 sec.  0.21 GB ram.
+no_overflow_0:     2053399 ( 69.05%) instrs.    1.19 sec.  0.21 GB ram.
+no_overflow_0:     2082326 ( 70.03%) instrs.    1.20 sec.  0.21 GB ram.
+no_overflow_0:     2112123 ( 71.03%) instrs.    1.20 sec.  0.21 GB ram.
+no_overflow_0:     2144899 ( 72.13%) instrs.    1.21 sec.  0.21 GB ram.
+no_overflow_0:     2171798 ( 73.04%) instrs.    1.22 sec.  0.21 GB ram.
+no_overflow_0:     2200935 ( 74.02%) instrs.    1.23 sec.  0.21 GB ram.
+no_overflow_0:     2230721 ( 75.02%) instrs.    1.24 sec.  0.21 GB ram.
+no_overflow_0:     2260862 ( 76.03%) instrs.    1.24 sec.  0.21 GB ram.
+no_overflow_0:     2290676 ( 77.03%) instrs.    1.25 sec.  0.21 GB ram.
+no_overflow_0:     2320710 ( 78.04%) instrs.    1.26 sec.  0.21 GB ram.
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+no_overflow_0:     2368700 ( 79.66%) instrs.    1.27 sec.  0.22 GB ram.
+no_overflow_0:     2378868 ( 80.00%) instrs.    1.28 sec.  0.22 GB ram.
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+no_overflow_0:     2409293 ( 81.02%) instrs.    1.28 sec.  0.22 GB ram.
+no_overflow_0:     2439579 ( 82.04%) instrs.    1.29 sec.  0.22 GB ram.
+no_overflow_0:     2468363 ( 83.01%) instrs.    1.30 sec.  0.22 GB ram.
+no_overflow_0:     2498744 ( 84.03%) instrs.    1.30 sec.  0.22 GB ram.
+no_overflow_0:     2533713 ( 85.21%) instrs.    1.31 sec.  0.22 GB ram.
+no_overflow_0:     2558212 ( 86.03%) instrs.    1.32 sec.  0.22 GB ram.
+no_overflow_0:     2591251 ( 87.14%) instrs.    1.33 sec.  0.22 GB ram.
+no_overflow_0:     2620035 ( 88.11%) instrs.    1.33 sec.  0.22 GB ram.
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+no_overflow_0:     2667005 ( 89.69%) instrs.    1.35 sec.  0.22 GB ram.
+no_overflow_0:     2676875 ( 90.02%) instrs.    1.35 sec.  0.22 GB ram.
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+Syscall: 0xb7712424 3713a000 acpid 1 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 175 1
+Syscall: 0xb7712424 3713a000 acpid 0 0
+Syscall: 0xb7712419 3713a000 acpid 3 1
+Syscall: 0xb7712424 3713a000 acpid 16 0
+Syscall: 0xb7712419 3713a000 acpid 142 1
+no_overflow_0:     2716974 ( 91.37%) instrs.    1.36 sec.  0.22 GB ram.
+no_overflow_0:     2737493 ( 92.06%) instrs.    1.37 sec.  0.22 GB ram.
+Syscall: 0xb779b419 34f7f000 init 13 1
+Syscall: 0xb779b424 34f7f000 init 1488322848 0
+Syscall: 0xb779b419 34f7f000 init 195 1
+Syscall: 0xb779b424 34f7f000 init 0 0
+Syscall: 0xb779b419 34f7f000 init 197 1
+Syscall: 0xb779b424 34f7f000 init 0 0
+Syscall: 0xb779b419 34f7f000 init 195 1
+Syscall: 0xb779b424 34f7f000 init 0 0
+Syscall: 0xb779b419 34f7f000 init 142 1
+no_overflow_0:     2768384 ( 93.10%) instrs.    1.38 sec.  0.22 GB ram.
+no_overflow_0:     2834548 ( 95.32%) instrs.    1.40 sec.  0.22 GB ram.
+no_overflow_0:     2834548 ( 95.32%) instrs.    1.40 sec.  0.22 GB ram.
+no_overflow_0:     2867064 ( 96.42%) instrs.    1.41 sec.  0.22 GB ram.
+no_overflow_0:     2890079 ( 97.19%) instrs.    1.42 sec.  0.22 GB ram.
+no_overflow_0:     2915629 ( 98.05%) instrs.    1.44 sec.  0.23 GB ram.
+no_overflow_0:     2949126 ( 99.18%) instrs.    1.46 sec.  0.23 GB ram.
+Recordings/no_overflow_0-rr-nondet.log:  log is empty.
+Replay completed successfully. 1
+Time taken was: 1 seconds.
+Stats:
+RR_INPUT_1 number = 0, size = 0 bytes
+RR_INPUT_2 number = 0, size = 0 bytes
+RR_INPUT_4 number = 779, size = 10906 bytes
+RR_INPUT_8 number = 4052, size = 72936 bytes
+RR_INTERRUPT_REQUEST number = 732, size = 10248 bytes
+RR_EXIT_REQUEST number = 0, size = 0 bytes
+RR_SKIPPED_CALL number = 5, size = 20655 bytes
+max_queue_len = 199
+Replay completed successfully 2.

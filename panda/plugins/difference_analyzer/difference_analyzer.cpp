@@ -145,11 +145,11 @@ void handle_sys(CPUState *cpu, target_ulong pc, target_ulong callno, bool isEnte
    target_ulong asid = panda_current_asid(cpu);
    auto it = running_procs.find(asid);
    assert(it != running_procs.end());
-   std::cout << std::hex << "0x" << pc << ", " <<
-   asid << ", " <<
+   std::cout <<"Syscall: "<< std::hex << "0x" << pc << " " <<
+   asid << " " <<
    std::dec <<
-   (it->second).name << ", " <<
-   callno << ", " <<
+   (it->second).name << " " <<
+   callno << " " <<
    isEnter << "\n";
 }
 void sys_enter(CPUState *cpu, target_ulong pc, target_ulong callno) {
