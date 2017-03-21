@@ -17,5 +17,5 @@ int main(int argc, char *argv[]){
 	// printf("You are now a root user \n");
 	x=2;
     }
-    return 2;
+    return x;
 }
