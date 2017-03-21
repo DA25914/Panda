@@ -11,6 +11,7 @@ void main(){
 	int x;
 	x = 0;
 	function(1,2,3);
-	x = 1;
+	x = 1;//skipped
 	x += 2;
+	return x;
 }
